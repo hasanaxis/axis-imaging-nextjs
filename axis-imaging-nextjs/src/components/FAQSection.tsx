@@ -16,7 +16,7 @@ export default function FAQSection() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return (
-        <section className="w-full py-20 flex flex-col items-center bg-white" style={{ fontFamily: 'DeuteriumVariable, Inter, sans-serif' }}>
+        <section className="w-full py-20 flex flex-col items-center bg-white" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
             <h2 className="text-6xl md:text-7xl font-bold text-[#662D91] text-center mb-12">Frequently asked Questions</h2>
             <div className="w-full max-w-3xl mx-auto">
                 {faqs.map((faq, idx) => (
@@ -29,7 +29,7 @@ export default function FAQSection() {
                             <span className="text-2xl">{openIndex === idx ? '−' : '+'}</span>
                         </button>
                         {openIndex === idx && (
-                            <div className="px-4 pb-5 text-gray-700 text-lg bg-gray-50">{faq.answer}</div>
+                            <div className="px-4 py-5 pb-6 text-gray-500 text-lg bg-white-50">{faq.answer}</div>
                         )}
                     </div>
                 ))}

@@ -37,10 +37,10 @@ export default function ServicesSection() {
             }}
         >
             <div className="relative z-10 max-w-6xl mx-auto flex flex-col items-center px-4 py-10">
-                <h2 className="text-white text-6xl md:text-6xl font-bold text-center mb-4 py-6" style={{ fontFamily: 'DeuteriumVariable, Inter, sans-serif' }}>
+                <h2 className="text-white text-6xl md:text-6xl font-bold text-center mb-4 py-6" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
                     Explore our services
                 </h2>
-                <p className="text-[#C4CED4] text-center mb-10 max-w-4xl text-2xl py-6" style={{ fontFamily: 'DeuteriumVariable, Inter, sans-serif' }}>
+                <p className="text-[#C4CED4] text-center mb-10 max-w-4xl text-2xl py-6" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
                     State-of-the-art equipment combined with a team that's ready for you. That's what makes us a truly great experience.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 w-full">
@@ -59,7 +59,7 @@ export default function ServicesSection() {
                             />
                             {/* Title and arrow */}
                             <div className="absolute bottom-6 left-6 right-6 mb-6 flex items-center z-20">
-                                <span className="text-white text-3xl font-extrabold drop-shadow-lg pr-16" style={{ fontFamily: 'DeuteriumVariable, Inter, sans-serif' }}>
+                                <span className="text-white text-3xl font-extrabold drop-shadow-lg pr-16" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
                                     {service.title}
                                 </span>
                                 <span className="absolute right-6 flex items-center justify-center w-10 h-10 rounded-full bg-axis-dark-purple group-hover:bg-axis-magenta transition">

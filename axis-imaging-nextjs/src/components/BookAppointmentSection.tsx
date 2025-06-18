@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function BookAppointmentSection() {
     return (
         <section className="w-full flex justify-center items-center py-16 bg-white">
-            <div className="w-full max-w-6xl bg-[#23235B] rounded-3xl shadow-lg flex flex-col md:flex-row items-center overflow-hidden" style={{ fontFamily: 'DeuteriumVariable, Inter, sans-serif' }}>
+            <div className="w-full max-w-6xl bg-[#23235B] rounded-3xl shadow-lg flex flex-col md:flex-row items-center overflow-hidden" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
                 {/* Left: Image */}
                 <div className="relative w-full md:w-1/2 h-[340px] md:h-[420px] flex-shrink-0">
                     <Image

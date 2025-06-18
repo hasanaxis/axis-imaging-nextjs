@@ -6,7 +6,7 @@ export default function LocationSection() {
         <section
             className="bg-[#FFFAFA] py-30 w-full flex flex-col items-center relative overflow-hidden"
             style={{
-                fontFamily: 'DeuteriumVariable, Inter, sans-serif',
+                fontFamily: 'deuterium-variable, Inter, sans-serif',
             }}
         >
             <div className="max-w-7xl w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-4">

@@ -28,9 +28,39 @@
   }
 }
 
+html,
+body {
+  font-family: "deuterium-variable", Inter, Arial, sans-serif;
+}
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: DeuteriumVariable, Inter, sans-serif;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
 }

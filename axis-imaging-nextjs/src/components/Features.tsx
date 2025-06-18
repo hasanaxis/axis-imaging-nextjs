@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Features() {
     return (
-        <section className="bg-[#23235B] py-13 flex justify-center" style={{ fontFamily: 'DeuteriumVariable, Inter, sans-serif' }}>
+        <section className="hidden md:flex bg-[#23235B] py-13 justify-center" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
             <div className="w-full max-w-7xl flex flex-row items-center justify-between min-h-[140px] px-0">
                 {/* Feature 1 */}
                 <div className="flex flex-row items-center flex-1 min-w-0">
