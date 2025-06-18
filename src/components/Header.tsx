@@ -32,7 +32,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
 
             {/* Hamburger/Close Button (Mobile) */}
             <button
-                className="md:hidden flex items-center justify-center w-11 h-11 rounded-full bg-axis-magenta hover:bg-axis-light-purple transition-colors focus:outline-none z-50 relative"
+                className="lg:hidden flex items-center justify-center w-11 h-11 rounded-full bg-axis-magenta hover:bg-axis-light-purple transition-colors focus:outline-none z-50 relative"
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label={menuOpen ? "Close menu" : "Open menu"}
             >
@@ -63,7 +63,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
             </nav>
 
             {/* Desktop Toggle & Button */}
-            <div className="hidden md:flex items-center space-x-6 ml-8">
+            <div className="hidden lg:flex items-center space-x-6 ml-8">
                 <div className="flex items-center space-x-2">
                     <span className={isReferrer ? 'font-medium' : ''}>Referrer</span>
                     <button
@@ -88,14 +88,15 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                 {/* Overlay */}
                 {menuOpen && (
                     <div
-                        className="fixed inset-0 bg-black bg-opacity-30 z-40 lg:hidden transition-opacity duration-300"
+                        className="fixed inset-0 z-40 lg:hidden transition-opacity duration-300"
+                        style={{ background: 'rgba(0,0,0,0.7)' }}
                         onClick={() => setMenuOpen(false)}
                     />
                 )}
 
                 {/* Drawer */}
                 <div
-                    className={`fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-[#23235B] shadow-2xl flex flex-col px-4 py-6 z-50 lg:hidden transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'} overflow-y-auto`}
+                    className={`fixed top-0 right-0 h-full w-full lg:w-80 max-w-[85vw] bg-[#23235B] shadow-2xl flex flex-col px-4 py-6 z-50 lg:hidden transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'} overflow-y-auto`}
                 >
                     {/* Header with logo and close button */}
                     <div className="flex items-center justify-between mb-8 pt-2">
@@ -146,7 +147,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
 
                     {/* Toggle Switch */}
                     <div className="flex items-center justify-center space-x-3 mb-8 py-4 bg-white/10 rounded-lg">
-                        <span className={`text-white text-sm ${isReferrer ? 'font-bold' : 'font-normal'}`}>
+                        <span className={`text-white text-sm ${isReferrer ? 'font-medium' : 'font-normal'}`}>
                             Referrer
                         </span>
                         <button
@@ -159,14 +160,14 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                                 className={`absolute top-1 left-1 w-5 h-5 rounded-full bg-white shadow transition-transform duration-200 ${isReferrer ? 'translate-x-0' : 'translate-x-5'}`}
                             />
                         </button>
-                        <span className={`text-white text-sm ${!isReferrer ? 'font-bold' : 'font-normal'}`}>
+                        <span className={`text-white text-sm ${!isReferrer ? 'font-medium' : 'font-normal'}`}>
                             Patient
                         </span>
                     </div>
 
                     {/* CTA Button */}
                     <button
-                        className="w-full bg-axis-magenta hover:bg-axis-light-purple text-white font-semibold text-base py-4 px-4 rounded-lg shadow-lg transition"
+                        className="w-full bg-axis-magenta hover:bg-axis-light-purple text-white font-medium text-base py-4 px-4 rounded-lg shadow-lg transition"
                         onClick={() => setMenuOpen(false)}
                     >
                         {isReferrer ? 'Refer a Patient' : 'Book Appointment'}

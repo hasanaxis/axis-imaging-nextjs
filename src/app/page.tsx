@@ -11,7 +11,7 @@ import BookAppointmentSection from '@/components/BookAppointmentSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
-  const [isReferrer, setIsReferrer] = useState(true);
+  const [isReferrer, setIsReferrer] = useState(false);
   return (
     <>
       <Header isReferrer={isReferrer} setIsReferrer={setIsReferrer} />

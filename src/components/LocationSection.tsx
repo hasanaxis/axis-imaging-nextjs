@@ -4,12 +4,12 @@ import Image from 'next/image';
 export default function LocationSection() {
     return (
         <section
-            className="bg-[#FFFAFA] py-30 w-full flex flex-col items-center relative overflow-hidden"
+            className="bg-[#FFFAFA] py-30 w-full flex flex-col items-left relative overflow-hidden"
             style={{
                 fontFamily: 'deuterium-variable, Inter, sans-serif',
             }}
         >
-            <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center justify-between gap-4 px-4">
+            <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-left justify-between gap-4 px-4">
                 {/* Left: Text */}
                 <div className="flex-1 flex flex-col items-start justify-center">
                     <h2 className="text-6xl md:text-7xl font-bold text-[#662D91] mb-8 leading-tight">

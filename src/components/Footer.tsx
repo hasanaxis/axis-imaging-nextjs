@@ -7,7 +7,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/f
 export default function Footer() {
     return (
         <footer className="bg-[#2B2960] text-[#C4CED4] pt-16 pb-8 px-4 overflow-x-hidden" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-start gap-12">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-start gap-12">
                 {/* Logo and description */}
                 <div className="flex-1 min-w-[220px] text-sm mb-10 md:mb-0 w-full max-w-full">
                     <div className="mb-6">
@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
 
                 {/* Links columns */}
-                <div className="flex-[2] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-full">
+                <div className="flex-[2] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-full">
                     {/* Customer Support */}
                     <div>
                         <h4 className="text-white text-lg font-bold mb-3">Customer Support</h4>
@@ -57,7 +57,7 @@ export default function Footer() {
                             <li><Link href="#" className="hover:underline">DEXA</Link></li>
                             <li><Link href="#" className="hover:underline">Interventional procedures</Link></li>
                             <li><Link href="#" className="hover:underline">Cardiac CT</Link></li>
-                            <li><Link href="#" className="hover:underline font-bold">Euflexxa Injection</Link></li>
+                            <li><Link href="#" className="hover:underline">Euflexxa Injection</Link></li>
                         </ul>
                     </div>
                     {/* Corporate */}
@@ -88,7 +88,7 @@ export default function Footer() {
                 </div>
             </div>
             {/* Bottom bar */}
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t border-[#3C3A6B] text-sm">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center mt-12 pt-8 border-t border-[#3C3A6B] text-sm">
                 <span>© 2025 Axis Imaging. All Rights Reserved.</span>
                 <div className="flex gap-4 mt-4 md:mt-0">
                     <Link href="#" className="text-[#00B2E3] hover:underline">Privacy Policy</Link>
