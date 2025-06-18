@@ -26,8 +26,8 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
     return (
         <header className="bg-[#23235B] text-white px-4 py-3 flex items-center justify-between w-full relative z-50" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
             {/* Logo */}
-            <div className="flex items-center">
-                <Image src="/assets/logos/Group 4.png" alt="Axis Imaging Logo" width={100} height={34} priority />
+            <div className="flex items-center ml-4">
+                <a href="/"><Image src="/assets/logos/Group 4.png" alt="Axis Imaging Logo" width={100} height={34} priority /></a>
             </div>
 
             {/* Hamburger/Close Button (Mobile) */}
@@ -54,7 +54,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex space-x-8 ml-8">
-                <a href="#" className="text-white font-medium hover:text-axis-magenta transition">Our Services</a>
+                <a href="/services" className="text-white font-medium hover:text-axis-magenta transition">Our Services</a>
                 <a href="#" className="text-white font-medium hover:text-axis-magenta transition">About Us</a>
                 <a href="#" className="text-white font-medium hover:text-axis-magenta transition">Contact Us</a>
                 <a href="#" className="text-white font-medium hover:text-axis-magenta transition">
@@ -78,7 +78,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                     </button>
                     <span className={!isReferrer ? 'font-medium' : ''}>Patient</span>
                 </div>
-                <button className="bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-5 py-2 rounded-lg shadow transition min-w-[180px]">
+                <button className="bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-5 py-2 mr-4 rounded-lg shadow transition min-w-[180px]">
                     {isReferrer ? 'Refer a Patient' : 'Book Appointment'}
                 </button>
             </div>
