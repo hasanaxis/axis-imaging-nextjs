@@ -65,7 +65,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
             {/* Desktop Toggle & Button */}
             <div className="hidden md:flex items-center space-x-6 ml-8">
                 <div className="flex items-center space-x-2">
-                    <span className={isReferrer ? 'font-bold' : ''}>Referrer</span>
+                    <span className={isReferrer ? 'font-medium' : ''}>Referrer</span>
                     <button
                         type="button"
                         aria-pressed={isReferrer}
@@ -76,9 +76,9 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                             className={`absolute top-1 left-1 w-5 h-5 rounded-full bg-white shadow transition-transform duration-200 ${isReferrer ? 'translate-x-0' : 'translate-x-5'}`}
                         />
                     </button>
-                    <span className={!isReferrer ? 'font-bold' : ''}>Patient</span>
+                    <span className={!isReferrer ? 'font-medium' : ''}>Patient</span>
                 </div>
-                <button className="bg-axis-magenta hover:bg-axis-light-purple text-white font-semibold px-5 py-2 rounded-lg shadow transition min-w-[180px]">
+                <button className="bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-5 py-2 rounded-lg shadow transition min-w-[180px]">
                     {isReferrer ? 'Refer a Patient' : 'Book Appointment'}
                 </button>
             </div>

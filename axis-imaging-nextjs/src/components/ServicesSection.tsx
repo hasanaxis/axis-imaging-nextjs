@@ -59,7 +59,7 @@ export default function ServicesSection() {
                             />
                             {/* Title and arrow */}
                             <div className="absolute bottom-6 left-6 right-6 mb-6 flex items-center z-20">
-                                <span className="text-white text-3xl font-extrabold drop-shadow-lg pr-16" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
+                                <span className="text-white text-3xl font-medium drop-shadow-lg pr-16" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
                                     {service.title}
                                 </span>
                                 <span className="absolute right-6 flex items-center justify-center w-10 h-10 rounded-full bg-axis-dark-purple group-hover:bg-axis-magenta transition">

@@ -30,13 +30,23 @@
 
 html,
 body {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "deuterium-variable", Inter, Arial, sans-serif;
+  font-weight: 500;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: DeuteriumVariable, Inter, sans-serif;
 }
 
 @keyframes slideDown {
