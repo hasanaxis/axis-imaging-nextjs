@@ -56,7 +56,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex space-x-8 ml-8">
                 <a href="/services" className="text-white font-regular hover:text-axis-magenta transition">Our Services</a>
-                <a href="#" className="text-white font-regular hover:text-axis-magenta transition">About Us</a>
+                <a href="/about-us" className="text-white font-regular hover:text-axis-magenta transition">About Us</a>
                 <a href="#" className="text-white font-regular hover:text-axis-magenta transition">Contact Us</a>
                 <a href="#" className="text-white font-regular hover:text-axis-magenta transition">
                     {isReferrer ? 'Referrer Information' : 'Patient Information'}
