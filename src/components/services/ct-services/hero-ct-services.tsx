@@ -80,6 +80,12 @@ export default function HeroServicesWithBreadcrumbs() {
                 Our Services
               </span>
             </Link>
+            <span className="text-[#23235B] text-xl sm:text-2xl font-bold">&gt;</span>
+            <Link href="/services/ct-scan">
+              <span className="bg-[#F72585] text-white rounded-full px-3 sm:px-5 py-1.5 sm:py-2 text-base sm:text-lg font-medium shadow hover:bg-[#fa4fa3] transition cursor-pointer">
+                CT-Scan
+              </span>
+            </Link>
           </div>
         </div>
 
@@ -95,7 +101,7 @@ export default function HeroServicesWithBreadcrumbs() {
           <section
             className="block md:hidden relative w-full h-[675px] flex flex-col justify-end"
             style={{
-              backgroundImage: 'url(/assets/services-page/hero-services/sonographer-white-gloves.png)',
+              backgroundImage: 'url(/assets/services-page/ct-scan-page/Ct-Scan-services-hero.png)',
               backgroundSize: 'contain',
               backgroundPosition: 'top center',
               backgroundRepeat: 'no-repeat',
@@ -117,13 +123,13 @@ export default function HeroServicesWithBreadcrumbs() {
                   letterSpacing: '-0.01em'
                 }}
               >
-                Our Services
+                CT-Scan
               </h1>
               <p
                 className="text-base sm:text-lg md:text-xl text-white max-w-xl text-left mb-4 sm:mb-6"
                 style={{ fontFamily: 'Inter, Arial, sans-serif' }}
               >
-                Expert diagnostic imaging services delivered with compassionate care. From routine screenings to complex procedures, our advanced technology and experienced team provide the answers you and your doctor need.
+                A CT (Computed Tomography) scan uses advanced X-ray technology to create detailed cross-sectional images of your body. This painless procedure gives our radiologists a comprehensive view of your internal structures, helping your doctor make accurate diagnoses quickly and confidently.
               </p>
               <button
                 className="w-full sm:w-auto bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg transition text-base sm:text-lg"
@@ -142,8 +148,8 @@ export default function HeroServicesWithBreadcrumbs() {
             {/* Background Container */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/assets/services-page/hero-services/sonographer-white-gloves.png"
-                alt="Sonographer performing ultrasound"
+                src="/assets/services-page/ct-scan-page/Ct-Scan-services-hero.png"
+                alt="CT scan procedure"
                 fill
                 className="object-contain object-right w-full h-full"
                 priority
@@ -166,13 +172,13 @@ export default function HeroServicesWithBreadcrumbs() {
                   letterSpacing: '-0.01em'
                 }}
               >
-                Our Services
+                CT-Scan
               </h1>
               <p
                 className="text-base md:text-lg lg:text-xl text-white w-[46rem] text-left mb-4 md:mb-6 lg:mb-8"
                 style={{ fontFamily: 'Inter, Arial, sans-serif' }}
               >
-                Expert diagnostic imaging services delivered with compassionate care. From routine screenings to complex procedures, our advanced technology and experienced team provide the answers you and your doctor need.
+                A CT (Computed Tomography) scan uses advanced X-ray technology to create detailed cross-sectional images of your body. This painless procedure gives our radiologists a comprehensive view of your internal structures, helping your doctor make accurate diagnoses quickly and confidently.
               </p>
               <button
                 className="bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-6 md:px-8 lg:px-10 py-3 lg:py-4 rounded-lg shadow-lg transition text-base md:text-lg lg:text-xl"
