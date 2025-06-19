@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function LocationSection() {
     return (
@@ -13,12 +14,12 @@ export default function LocationSection() {
                 {/* Left: Text */}
                 <div className="flex-1 flex flex-col items-start justify-center">
                     <h2 className="text-6xl md:text-7xl font-bold text-[#662D91] mb-8 leading-tight">
-                        Easy to find<br />and access
+                        Easy to find and access
                     </h2>
                     <p className="text-3xl text-[#3C4247] mb-10">300+ parking spaces</p>
-                    <button className="bg-[#23235B] hover:bg-[#3C4247] text-white font-semibold px-14 py-4 rounded-full text-xl transition">
+                    <Link href="/location" className="bg-[#23235B] hover:bg-[#3C4247] text-white font-semibold px-14 py-4 rounded-full text-xl transition">
                         Learn more
-                    </button>
+                    </Link>
                 </div>
                 {/* Right: Image */}
                 <div className="flex-1 flex justify-center">
