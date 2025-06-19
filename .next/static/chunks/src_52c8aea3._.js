@@ -159,7 +159,7 @@ function Header({ isReferrer, setIsReferrer }) {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "/services",
-                        className: "text-white font-medium hover:text-axis-magenta transition",
+                        className: "text-white font-regular hover:text-axis-magenta transition",
                         children: "Our Services"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
@@ -168,7 +168,7 @@ function Header({ isReferrer, setIsReferrer }) {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
-                        className: "text-white font-medium hover:text-axis-magenta transition",
+                        className: "text-white font-regular hover:text-axis-magenta transition",
                         children: "About Us"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
@@ -177,7 +177,7 @@ function Header({ isReferrer, setIsReferrer }) {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
-                        className: "text-white font-medium hover:text-axis-magenta transition",
+                        className: "text-white font-regular hover:text-axis-magenta transition",
                         children: "Contact Us"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
@@ -186,7 +186,7 @@ function Header({ isReferrer, setIsReferrer }) {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
-                        className: "text-white font-medium hover:text-axis-magenta transition",
+                        className: "text-white font-regular hover:text-axis-magenta transition",
                         children: isReferrer ? 'Referrer Information' : 'Patient Information'
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
@@ -206,7 +206,7 @@ function Header({ isReferrer, setIsReferrer }) {
                         className: "flex items-center space-x-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: isReferrer ? 'font-medium' : '',
+                                className: isReferrer ? 'font-regular' : '',
                                 children: "Referrer"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.tsx",
@@ -231,7 +231,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: !isReferrer ? 'font-medium' : '',
+                                className: !isReferrer ? 'font-regular' : '',
                                 children: "Patient"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.tsx",
@@ -245,7 +245,7 @@ function Header({ isReferrer, setIsReferrer }) {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-5 py-2 mr-4 rounded-lg shadow transition min-w-[180px]",
+                        className: "bg-axis-magenta hover:bg-axis-light-purple text-white font-regular px-5 py-2 mr-4 rounded-lg shadow transition min-w-[180px]",
                         children: isReferrer ? 'Refer a Patient' : 'Book Appointment'
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
@@ -341,7 +341,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#",
-                                        className: "text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
+                                        className: "text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
                                         onClick: ()=>setMenuOpen(false),
                                         children: "Our Services"
                                     }, void 0, false, {
@@ -351,7 +351,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#",
-                                        className: "text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
+                                        className: "text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
                                         onClick: ()=>setMenuOpen(false),
                                         children: "About Us"
                                     }, void 0, false, {
@@ -361,7 +361,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#",
-                                        className: "text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
+                                        className: "text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
                                         onClick: ()=>setMenuOpen(false),
                                         children: "Contact Us"
                                     }, void 0, false, {
@@ -371,7 +371,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#",
-                                        className: "text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
+                                        className: "text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
                                         onClick: ()=>setMenuOpen(false),
                                         children: isReferrer ? 'Referrer Information' : 'Patient Information'
                                     }, void 0, false, {
@@ -389,7 +389,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                 className: "flex items-center justify-center space-x-3 mb-8 py-4 bg-white/10 rounded-lg",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: `text-white text-sm ${isReferrer ? 'font-medium' : 'font-normal'}`,
+                                        className: `text-white text-sm ${isReferrer ? 'font-regular' : 'font-normal'}`,
                                         children: "Referrer"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
@@ -414,7 +414,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: `text-white text-sm ${!isReferrer ? 'font-medium' : 'font-normal'}`,
+                                        className: `text-white text-sm ${!isReferrer ? 'font-regular' : 'font-normal'}`,
                                         children: "Patient"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Header.tsx",
@@ -428,7 +428,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "w-full bg-axis-magenta hover:bg-axis-light-purple text-white font-medium text-base py-4 px-4 rounded-lg shadow-lg transition",
+                                className: "w-full bg-axis-magenta hover:bg-axis-light-purple text-white font-regular text-base py-4 px-4 rounded-lg shadow-lg transition",
                                 onClick: ()=>setMenuOpen(false),
                                 children: isReferrer ? 'Refer a Patient' : 'Book Appointment'
                             }, void 0, false, {
