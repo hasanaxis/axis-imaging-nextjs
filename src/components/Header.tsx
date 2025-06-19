@@ -54,10 +54,10 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex space-x-8 ml-8">
-                <a href="/services" className="text-white font-medium hover:text-axis-magenta transition">Our Services</a>
-                <a href="#" className="text-white font-medium hover:text-axis-magenta transition">About Us</a>
-                <a href="#" className="text-white font-medium hover:text-axis-magenta transition">Contact Us</a>
-                <a href="#" className="text-white font-medium hover:text-axis-magenta transition">
+                <a href="/services" className="text-white font-regular hover:text-axis-magenta transition">Our Services</a>
+                <a href="#" className="text-white font-regular hover:text-axis-magenta transition">About Us</a>
+                <a href="#" className="text-white font-regular hover:text-axis-magenta transition">Contact Us</a>
+                <a href="#" className="text-white font-regular hover:text-axis-magenta transition">
                     {isReferrer ? 'Referrer Information' : 'Patient Information'}
                 </a>
             </nav>
@@ -65,7 +65,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
             {/* Desktop Toggle & Button */}
             <div className="hidden lg:flex items-center space-x-6 ml-8">
                 <div className="flex items-center space-x-2">
-                    <span className={isReferrer ? 'font-medium' : ''}>Referrer</span>
+                    <span className={isReferrer ? 'font-regular' : ''}>Referrer</span>
                     <button
                         type="button"
                         aria-pressed={isReferrer}
@@ -76,9 +76,9 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                             className={`absolute top-1 left-1 w-5 h-5 rounded-full bg-white shadow transition-transform duration-200 ${isReferrer ? 'translate-x-0' : 'translate-x-5'}`}
                         />
                     </button>
-                    <span className={!isReferrer ? 'font-medium' : ''}>Patient</span>
+                    <span className={!isReferrer ? 'font-regular' : ''}>Patient</span>
                 </div>
-                <button className="bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-5 py-2 mr-4 rounded-lg shadow transition min-w-[180px]">
+                <button className="bg-axis-magenta hover:bg-axis-light-purple text-white font-regular px-5 py-2 mr-4 rounded-lg shadow transition min-w-[180px]">
                     {isReferrer ? 'Refer a Patient' : 'Book Appointment'}
                 </button>
             </div>
@@ -117,28 +117,28 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                     <nav className="flex flex-col space-y-1 mb-8">
                         <a
                             href="#"
-                            className="text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
+                            className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >
                             Our Services
                         </a>
                         <a
                             href="#"
-                            className="text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
+                            className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >
                             About Us
                         </a>
                         <a
                             href="#"
-                            className="text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
+                            className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >
                             Contact Us
                         </a>
                         <a
                             href="#"
-                            className="text-white font-medium text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
+                            className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >
                             {isReferrer ? 'Referrer Information' : 'Patient Information'}
@@ -147,7 +147,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
 
                     {/* Toggle Switch */}
                     <div className="flex items-center justify-center space-x-3 mb-8 py-4 bg-white/10 rounded-lg">
-                        <span className={`text-white text-sm ${isReferrer ? 'font-medium' : 'font-normal'}`}>
+                        <span className={`text-white text-sm ${isReferrer ? 'font-regular' : 'font-normal'}`}>
                             Referrer
                         </span>
                         <button
@@ -160,14 +160,14 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                                 className={`absolute top-1 left-1 w-5 h-5 rounded-full bg-white shadow transition-transform duration-200 ${isReferrer ? 'translate-x-0' : 'translate-x-5'}`}
                             />
                         </button>
-                        <span className={`text-white text-sm ${!isReferrer ? 'font-medium' : 'font-normal'}`}>
+                        <span className={`text-white text-sm ${!isReferrer ? 'font-regular' : 'font-normal'}`}>
                             Patient
                         </span>
                     </div>
 
                     {/* CTA Button */}
                     <button
-                        className="w-full bg-axis-magenta hover:bg-axis-light-purple text-white font-medium text-base py-4 px-4 rounded-lg shadow-lg transition"
+                        className="w-full bg-axis-magenta hover:bg-axis-light-purple text-white font-regular text-base py-4 px-4 rounded-lg shadow-lg transition"
                         onClick={() => setMenuOpen(false)}
                     >
                         {isReferrer ? 'Refer a Patient' : 'Book Appointment'}

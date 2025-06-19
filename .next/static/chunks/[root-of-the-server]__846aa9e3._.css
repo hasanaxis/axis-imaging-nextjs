@@ -818,6 +818,10 @@
     width: calc(var(--spacing) * 16);
   }
 
+  .w-\[46rem\] {
+    width: 46rem;
+  }
+
   .w-\[220px\] {
     width: 220px;
   }
@@ -2142,6 +2146,12 @@
     .lg\:text-xl {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+
+  @media (width >= 80rem) {
+    .xl\:max-w-\[46rem\] {
+      max-width: 46rem;
     }
   }
 
