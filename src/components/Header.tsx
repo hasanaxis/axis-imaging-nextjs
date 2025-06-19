@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface HeaderProps {
     isReferrer: boolean;
@@ -27,7 +28,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
         <header className="bg-[#23235B] text-white px-4 py-3 flex items-center justify-between w-full relative z-50" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
             {/* Logo */}
             <div className="flex items-center ml-4">
-                <a href="/"><Image src="/assets/logos/Group 4.png" alt="Axis Imaging Logo" width={100} height={34} priority /></a>
+                <Link href="/"><Image src="/assets/logos/Group 4.png" alt="Axis Imaging Logo" width={100} height={34} priority /></Link>
             </div>
 
             {/* Hamburger/Close Button (Mobile) */}
