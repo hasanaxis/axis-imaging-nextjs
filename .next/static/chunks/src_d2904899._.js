@@ -39,7 +39,7 @@ function Header({ isReferrer, setIsReferrer }) {
         menuOpen
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "bg-[#23235B] text-white px-4 py-3 pb-5 pt-5 pl-5 pr-5 flex items-center justify-between w-full relative z-50",
+        className: "bg-[#23235B] text-white px-4 py-3 flex items-center justify-between w-full relative z-50",
         style: {
             fontFamily: 'deuterium-variable, Inter, sans-serif'
         },
@@ -169,7 +169,7 @@ function Header({ isReferrer, setIsReferrer }) {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "/about-us",
+                        href: "#",
                         className: "text-white font-regular hover:text-axis-magenta transition",
                         children: "About Us"
                     }, void 0, false, {
@@ -352,7 +352,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "/about-us",
+                                        href: "#",
                                         className: "text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
                                         onClick: ()=>setMenuOpen(false),
                                         children: "About Us"
@@ -814,32 +814,40 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+;
 ;
 ;
 const services = [
     {
         title: 'CT-Scan',
-        img: '/assets/services/ct-scan.png'
+        img: '/assets/services/ct-scan.png',
+        route: '/services/ct-scan'
     },
     {
         title: 'X-ray',
-        img: '/assets/services/xray.png'
+        img: '/assets/services/xray.png',
+        route: '/services/xray'
     },
     {
         title: 'Ultrasound',
-        img: '/assets/services/ultrasound.png'
+        img: '/assets/services/ultrasound.png',
+        route: '/services/ultrasound'
     },
     {
         title: 'DEXA',
-        img: '/assets/services/dexa.png'
+        img: '/assets/services/dexa.png',
+        route: '/services/dexa'
     },
     {
         title: 'Interventional Procedures',
-        img: '/assets/services/interventional.png'
+        img: '/assets/services/interventional.png',
+        route: '#'
     },
     {
         title: 'Cardiac CT-Scan',
-        img: '/assets/services/cardiac-ct.png'
+        img: '/assets/services/cardiac-ct.png',
+        route: '#'
     }
 ];
 function Services() {
@@ -859,7 +867,7 @@ function Services() {
                     children: "Explore our services"
                 }, void 0, false, {
                     fileName: "[project]/src/components/services/services.tsx",
-                    lineNumber: 39,
+                    lineNumber: 46,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -870,96 +878,104 @@ function Services() {
                     children: "State-of-the-art equipment combined with a team that's ready for you. That's what makes us a truly great experience."
                 }, void 0, false, {
                     fileName: "[project]/src/components/services/services.tsx",
-                    lineNumber: 42,
+                    lineNumber: 49,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full",
-                    children: services.map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative rounded-lg overflow-hidden group transition-transform hover:scale-105 h-[340px] flex",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: service.img,
-                                    alt: service.title,
-                                    fill: true,
-                                    className: "object-cover",
-                                    style: {
-                                        zIndex: 1
-                                    },
-                                    quality: 95
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/services/services.tsx",
-                                    lineNumber: 51,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute bottom-6 left-6 right-6 mb-6 flex items-center z-20",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-white text-3xl font-medium drop-shadow-lg pr-16",
-                                            style: {
-                                                fontFamily: 'deuterium-variable, Inter, sans-serif'
-                                            },
-                                            children: service.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/services/services.tsx",
-                                            lineNumber: 61,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "absolute right-6 flex items-center justify-center w-10 h-10 rounded-full bg-axis-dark-purple group-hover:bg-axis-magenta transition",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                width: "20",
-                                                height: "20",
-                                                fill: "none",
-                                                viewBox: "0 0 24 24",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                    d: "M9 6l6 6-6 6",
-                                                    stroke: "#fff",
-                                                    strokeWidth: "2",
-                                                    strokeLinecap: "round",
-                                                    strokeLinejoin: "round"
+                    children: services.map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: service.route,
+                            className: "block",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative rounded-lg overflow-hidden group transition-transform hover:scale-105 h-[340px] flex cursor-pointer",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: service.img,
+                                        alt: service.title,
+                                        fill: true,
+                                        className: "object-cover",
+                                        style: {
+                                            zIndex: 1
+                                        },
+                                        quality: 95
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/services.tsx",
+                                        lineNumber: 62,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute bottom-6 left-6 right-6 mb-6 flex items-center z-20",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-white text-3xl font-medium drop-shadow-lg pr-16",
+                                                style: {
+                                                    fontFamily: 'deuterium-variable, Inter, sans-serif'
+                                                },
+                                                children: service.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/services.tsx",
+                                                lineNumber: 72,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "absolute right-6 flex items-center justify-center w-10 h-10 rounded-full bg-axis-dark-purple group-hover:bg-axis-magenta transition",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                    width: "20",
+                                                    height: "20",
+                                                    fill: "none",
+                                                    viewBox: "0 0 24 24",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                        d: "M9 6l6 6-6 6",
+                                                        stroke: "#fff",
+                                                        strokeWidth: "2",
+                                                        strokeLinecap: "round",
+                                                        strokeLinejoin: "round"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/services/services.tsx",
+                                                        lineNumber: 77,
+                                                        columnNumber: 45
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/services/services.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 76,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/services/services.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 75,
                                                 columnNumber: 37
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/services/services.tsx",
-                                            lineNumber: 64,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/services/services.tsx",
-                                    lineNumber: 60,
-                                    columnNumber: 29
-                                }, this)
-                            ]
-                        }, service.title, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/services/services.tsx",
+                                        lineNumber: 71,
+                                        columnNumber: 33
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/services/services.tsx",
+                                lineNumber: 59,
+                                columnNumber: 29
+                            }, this)
+                        }, service.title, false, {
                             fileName: "[project]/src/components/services/services.tsx",
-                            lineNumber: 47,
+                            lineNumber: 54,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/services/services.tsx",
-                    lineNumber: 45,
+                    lineNumber: 52,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/services/services.tsx",
-            lineNumber: 38,
+            lineNumber: 45,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/services/services.tsx",
-        lineNumber: 32,
+        lineNumber: 39,
         columnNumber: 9
     }, this);
 }

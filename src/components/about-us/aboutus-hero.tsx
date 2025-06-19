@@ -172,7 +172,7 @@ export default function AboutUsHero() {
                                 className="text-base md:text-lg lg:text-xl text-white w-[46rem] text-left mb-4 md:mb-6 lg:mb-8"
                                 style={{ fontFamily: 'Inter, Arial, sans-serif' }}
                             >
-                                As a family-owned radiology practice, we&apos;re deeply committed to serving our local community with expert diagnostic imaging services. Our team combines advanced technology with compassionate care to ensure every patient feels comfortable, informed and valued.
+                                As a family-owned radiology practice, we're deeply committed to serving our local community with expert diagnostic imaging services. Our team combines advanced technology with compassionate care to ensure every patient feels comfortable, informed and valued.
                             </p>
                             <button
                                 className="bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-6 md:px-8 lg:px-10 py-3 lg:py-4 rounded-lg shadow-lg transition text-base md:text-lg lg:text-xl"

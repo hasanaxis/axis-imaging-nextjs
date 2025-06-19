@@ -39,7 +39,7 @@ function Header({ isReferrer, setIsReferrer }) {
         menuOpen
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "bg-[#23235B] text-white px-4 py-3 pb-5 pt-5 pl-5 pr-5 flex items-center justify-between w-full relative z-50",
+        className: "bg-[#23235B] text-white px-4 py-3 flex items-center justify-between w-full relative z-50",
         style: {
             fontFamily: 'deuterium-variable, Inter, sans-serif'
         },
@@ -165,29 +165,29 @@ function Header({ isReferrer, setIsReferrer }) {
                         children: "Our Services"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
+<<<<<<< HEAD:.next/static/chunks/src_52c8aea3._.js
                         lineNumber: 57,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "/about-us",
+                        href: "#",
                         className: "text-white font-regular hover:text-axis-magenta transition",
                         children: "About Us"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
 =======
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
+>>>>>>> 433596df0d86fc378ed338d8d7acd2d3a276bb39:.next/static/chunks/src_04c6b4ac._.js
                         lineNumber: 58,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
                         className: "text-white font-regular hover:text-axis-magenta transition",
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
+<<<<<<< HEAD:.next/static/chunks/src_52c8aea3._.js
                         children: "Contact Us"
 =======
                         children: "About Us"
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
+>>>>>>> 433596df0d86fc378ed338d8d7acd2d3a276bb39:.next/static/chunks/src_04c6b4ac._.js
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
                         lineNumber: 59,
@@ -196,11 +196,11 @@ function Header({ isReferrer, setIsReferrer }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
                         className: "text-white font-regular hover:text-axis-magenta transition",
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
+<<<<<<< HEAD:.next/static/chunks/src_52c8aea3._.js
                         children: isReferrer ? 'Referrer Information' : 'Patient Information'
 =======
                         children: "Contact Us"
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
+>>>>>>> 433596df0d86fc378ed338d8d7acd2d3a276bb39:.next/static/chunks/src_04c6b4ac._.js
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
                         lineNumber: 60,
@@ -372,11 +372,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
-                                        href: "/about-us",
-=======
                                         href: "#",
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
                                         className: "text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
                                         onClick: ()=>setMenuOpen(false),
                                         children: "About Us"
@@ -499,11 +495,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 ;
 ;
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
-function AboutUsHero() {
-=======
 function HeroServicesWithBreadcrumbs() {
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -547,11 +539,7 @@ function HeroServicesWithBreadcrumbs() {
         `
                 }
             }, void 0, false, {
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
-                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-=======
                 fileName: "[project]/src/components/services/ct-services/hero-ct-services.tsx",
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
                 lineNumber: 8,
                 columnNumber: 7
             }, this),
@@ -566,267 +554,6 @@ function HeroServicesWithBreadcrumbs() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute top-0 left-0 w-full",
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
-                                style: {
-                                    zIndex: 1,
-                                    height: '210px'
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    className: "w-full h-full md:mt-[93px]",
-                                    viewBox: "0 0 1440 210",
-                                    preserveAspectRatio: "none",
-                                    fill: "none",
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    style: {
-                                        marginTop: '20px'
-                                    },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        d: "M0,0 L1440,0 L1440,140 C1200,170 1000,185 800,175 C600,165 400,150 200,155 C100,157 50,158 0,157 Z",
-                                        fill: "#FFF4FB"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 61,
-                                        columnNumber: 29
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                    lineNumber: 53,
-                                    columnNumber: 25
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                lineNumber: 52,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative z-10 flex items-center space-x-3 px-4 sm:px-6 pt-20 pb-2",
-                                style: {
-                                    top: '64px',
-                                    paddingTop: '50px'
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "bg-[#23235B] text-white rounded-full px-3 sm:px-5 py-1.5 sm:py-2 text-base sm:text-lg font-medium shadow hover:bg-[#3a3a7a] transition cursor-pointer",
-                                            children: "Home"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                            lineNumber: 73,
-                                            columnNumber: 29
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 72,
-                                        columnNumber: 25
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[#23235B] text-xl sm:text-2xl font-bold",
-                                        children: ">"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 77,
-                                        columnNumber: 25
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/about-us",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "bg-[#F72585] text-white rounded-full px-3 sm:px-5 py-1.5 sm:py-2 text-base sm:text-lg font-medium shadow hover:bg-[#fa4fa3] transition cursor-pointer",
-                                            children: "About Us"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                            lineNumber: 79,
-                                            columnNumber: 29
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 78,
-                                        columnNumber: 25
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                lineNumber: 68,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                        lineNumber: 50,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "hero-section-1400 relative flex flex-col md:flex-row items-end md:items-stretch md:justify-between",
-                        style: {
-                            fontFamily: 'deuterium-variable, Inter, sans-serif',
-                            paddingTop: '50px'
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                                className: "block md:hidden relative w-full h-[675px] flex flex-col justify-end",
-                                style: {
-                                    backgroundImage: 'url(/assets/services-page/hero-services/sonographer-white-gloves.png)',
-                                    backgroundSize: 'contain',
-                                    backgroundPosition: 'top center',
-                                    backgroundRepeat: 'no-repeat'
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute inset-0 z-5 pointer-events-none",
-                                        style: {
-                                            background: 'linear-gradient(180deg, rgba(236,0,140,0) 0%, rgba(234,1,140,0.04) 33%, rgba(209,14,141,0.7) 39%, rgba(197,21,141,1) 44%, rgba(180,30,142,1) 61%, rgba(99,32,117,1) 83%, rgba(38,34,98,1) 100%)'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 105,
-                                        columnNumber: 25
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative w-full flex flex-col items-start px-4 sm:px-5 pb-6 sm:pb-8 z-10 max-w-[1260px] mx-auto",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                className: "text-3xl sm:text-4xl md:text-5xl font-medium leading-tight mb-3 sm:mb-4 text-white text-left",
-                                                style: {
-                                                    fontFamily: 'deuterium-variable, Inter, sans-serif',
-                                                    letterSpacing: '-0.01em'
-                                                },
-                                                children: "About Us"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 113,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-base sm:text-lg md:text-xl text-white max-w-xl text-left mb-4 sm:mb-6",
-                                                style: {
-                                                    fontFamily: 'Inter, Arial, sans-serif'
-                                                },
-                                                children: "As a family-owned radiology practice, we're deeply committed to serving our local community with expert diagnostic imaging services. Our team combines advanced technology with compassionate care to ensure every patient feels comfortable, informed and valued."
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 122,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "w-full sm:w-auto bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg transition text-base sm:text-lg",
-                                                style: {
-                                                    fontFamily: 'deuterium-variable, Inter, sans-serif',
-                                                    boxShadow: '0 4px 24px 0 rgba(180, 30, 142, 0.25)'
-                                                },
-                                                children: "Book Appointment"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 128,
-                                                columnNumber: 29
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 112,
-                                        columnNumber: 25
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                lineNumber: 95,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "desktop-container-1400 tablet-hero-height hidden md:block w-full h-[500px] min-h-[500px] relative",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute inset-0 z-0",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "/assets/services-page/hero-services/sonographer-white-gloves.png",
-                                                alt: "Sonographer performing ultrasound",
-                                                fill: true,
-                                                className: "object-contain object-right w-full h-full",
-                                                priority: true,
-                                                quality: 95
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 144,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 z-10 pointer-events-none tablet-gradient-overlay",
-                                                style: {
-                                                    background: 'linear-gradient(90deg, #262262 0%, #632075 25%, #B41E8E 45%, #C8138D 54%, rgba(200, 19, 141, 0.7) 57%, rgba(200, 19, 141, 0.3) 62%, transparent 70%)'
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 153,
-                                                columnNumber: 29
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 143,
-                                        columnNumber: 25
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative z-20 flex flex-col justify-center items-start h-full w-full max-w-[1800px] px-6 lg:px-24 mx-auto tablet-content-positioning large-tablet-content",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                className: "text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium leading-[1.05] mb-3 md:mb-4 lg:mb-6 text-white text-left",
-                                                style: {
-                                                    fontFamily: 'deuterium-variable, Inter, sans-serif',
-                                                    letterSpacing: '-0.01em'
-                                                },
-                                                children: "About Us"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 162,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-base md:text-lg lg:text-xl text-white w-[46rem] text-left mb-4 md:mb-6 lg:mb-8",
-                                                style: {
-                                                    fontFamily: 'Inter, Arial, sans-serif'
-                                                },
-                                                children: "As a family-owned radiology practice, we're deeply committed to serving our local community with expert diagnostic imaging services. Our team combines advanced technology with compassionate care to ensure every patient feels comfortable, informed and valued."
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 171,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-axis-magenta hover:bg-axis-light-purple text-white font-medium px-6 md:px-8 lg:px-10 py-3 lg:py-4 rounded-lg shadow-lg transition text-base md:text-lg lg:text-xl",
-                                                style: {
-                                                    fontFamily: 'deuterium-variable, Inter, sans-serif',
-                                                    boxShadow: '0 4px 24px 0 rgba(180, 30, 142, 0.25)'
-                                                },
-                                                children: "Book Appointment"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                                lineNumber: 177,
-                                                columnNumber: 29
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                        lineNumber: 161,
-                                        columnNumber: 25
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                                lineNumber: 141,
-                                columnNumber: 21
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                        lineNumber: 87,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/about-us/aboutus-hero.tsx",
-                lineNumber: 48,
-                columnNumber: 13
-=======
                                 style: {
                                     zIndex: 1,
                                     height: '210px'
@@ -1086,205 +813,13 @@ function HeroServicesWithBreadcrumbs() {
                 fileName: "[project]/src/components/services/ct-services/hero-ct-services.tsx",
                 lineNumber: 48,
                 columnNumber: 7
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
             }, this)
         ]
     }, void 0, true);
 }
 _c = HeroServicesWithBreadcrumbs;
 var _c;
-<<<<<<< HEAD:.next/static/chunks/src_ce74d77c._.js
-__turbopack_context__.k.register(_c, "AboutUsHero");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
-"[project]/src/components/about-us/about-us.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "default": (()=>AboutUsSection)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
-;
-;
-function AboutUsSection() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "min-h-screen flex flex-col items-center justify-center bg-white py-8 px-4",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-6xl w-full mx-auto flex flex-col lg:flex-row items-center justify-between gap-8",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex-1 flex flex-col items-start justify-center mb-8 lg:mb-0",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-3xl sm:text-4xl md:text-5xl font-bold text-[#662D91] mb-6 leading-tight",
-                            style: {
-                                fontFamily: 'deuterium-variable, Inter, sans-serif'
-                            },
-                            children: "Where expert care meets exceptional service"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/about-us/about-us.tsx",
-                            lineNumber: 10,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-[#3C4247] text-base md:text-lg mb-4 max-w-lg",
-                            children: "Axis Imaging was founded with a simple belief: that high-quality, independent healthcare providers are essential for vibrant and healthy communities."
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/about-us/about-us.tsx",
-                            lineNumber: 13,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-[#3C4247] text-base md:text-lg max-w-lg",
-                            children: "As a family-owned practice, we take pride in offering a warm, welcoming environment where your medical imaging needs are met with expertise and compassion."
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/about-us/about-us.tsx",
-                            lineNumber: 16,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/components/about-us/about-us.tsx",
-                    lineNumber: 9,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex-1 flex justify-center items-center",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/assets/clarity/2.png",
-                        alt: "Axis Imaging - Expert care and exceptional service",
-                        width: 500,
-                        height: 300,
-                        className: "w-[320px] h-[220px] md:w-[380px] md:h-[260px] rounded-lg object-cover",
-                        priority: true,
-                        quality: 95
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/about-us/about-us.tsx",
-                        lineNumber: 22,
-                        columnNumber: 21
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/about-us/about-us.tsx",
-                    lineNumber: 21,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/about-us/about-us.tsx",
-            lineNumber: 7,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/components/about-us/about-us.tsx",
-        lineNumber: 6,
-        columnNumber: 9
-    }, this);
-}
-_c = AboutUsSection;
-var _c;
-__turbopack_context__.k.register(_c, "AboutUsSection");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
-"[project]/src/components/BookAppointmentSection.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "default": (()=>BookAppointmentSection)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
-'use client';
-;
-;
-function BookAppointmentSection() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "w-full flex justify-center items-center py-8 px-4 md:py-12 md:px-8 bg-white",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-full max-w-5xl bg-[#23235B] rounded-3xl shadow-lg relative flex flex-col lg:flex-row items-center overflow-hidden p-4 md:p-8",
-            style: {
-                fontFamily: 'deuterium-variable, Inter, sans-serif'
-            },
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex-1 flex flex-col justify-center items-start px-8 py-10 md:py-0 md:pl-12",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-white text-4xl md:text-5xl font-bold mb-6 leading-tight",
-                            children: "Ready to Book your Appointment?"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/BookAppointmentSection.tsx",
-                            lineNumber: 10,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-white text-xl md:text-2xl mb-8",
-                            children: "Instantly book online in 3 simple steps. Or call our friendly team at 03 000000"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/BookAppointmentSection.tsx",
-                            lineNumber: 13,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "bg-axis-magenta hover:bg-pink-500 text-white font-semibold px-8 py-4 rounded-lg text-xl transition",
-                            children: "Book Appointment"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/BookAppointmentSection.tsx",
-                            lineNumber: 16,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/components/BookAppointmentSection.tsx",
-                    lineNumber: 9,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full lg:w-1/2 flex justify-center items-end mt-4 lg:mt-0",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/assets/cta/cta-nurse-patient.png",
-                        alt: "Nurse and patient",
-                        width: 600,
-                        height: 480,
-                        className: "w-100% h-100% max-w-full max-h-[100%] md:max-h-[100%] lg:max-h-[100%]",
-                        priority: true,
-                        quality: 95
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/BookAppointmentSection.tsx",
-                        lineNumber: 21,
-                        columnNumber: 21
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/BookAppointmentSection.tsx",
-                    lineNumber: 20,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/BookAppointmentSection.tsx",
-            lineNumber: 7,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/components/BookAppointmentSection.tsx",
-        lineNumber: 6,
-        columnNumber: 9
-    }, this);
-}
-_c = BookAppointmentSection;
-var _c;
-__turbopack_context__.k.register(_c, "BookAppointmentSection");
-=======
 __turbopack_context__.k.register(_c, "HeroServicesWithBreadcrumbs");
->>>>>>> origin/main:.next/static/chunks/src_04c6b4ac._.js
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }

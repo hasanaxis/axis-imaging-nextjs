@@ -1,29 +1,36 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const services = [
     {
         title: 'CT-Scan',
         img: '/assets/services/ct-scan.png',
+        route: '/services/ct-scan',
     },
     {
         title: 'X-ray',
         img: '/assets/services/xray.png',
+        route: '/services/xray',
     },
     {
         title: 'Ultrasound',
         img: '/assets/services/ultrasound.png',
+        route: '/services/ultrasound',
     },
     {
         title: 'DEXA',
         img: '/assets/services/dexa.png',
+        route: '/services/dexa',
     },
     {
         title: 'Interventional Procedures',
         img: '/assets/services/interventional.png',
+        route: '#', // Placeholder for future Interventional page
     },
     {
         title: 'Cardiac CT-Scan',
         img: '/assets/services/cardiac-ct.png',
+        route: '#', // Placeholder for future Cardiac CT page
     },
 ];
 
@@ -44,30 +51,35 @@ export default function Services() {
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
                     {services.map((service) => (
-                        <div
+                        <Link
                             key={service.title}
-                            className="relative rounded-lg overflow-hidden group transition-transform hover:scale-105 h-[340px] flex"
+                            href={service.route}
+                            className="block"
                         >
-                            <Image
-                                src={service.img}
-                                alt={service.title}
-                                fill
-                                className="object-cover"
-                                style={{ zIndex: 1 }}
-                                quality={95}
-                            />
-                            {/* Title and arrow */}
-                            <div className="absolute bottom-6 left-6 right-6 mb-6 flex items-center z-20">
-                                <span className="text-white text-3xl font-medium drop-shadow-lg pr-16" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
-                                    {service.title}
-                                </span>
-                                <span className="absolute right-6 flex items-center justify-center w-10 h-10 rounded-full bg-axis-dark-purple group-hover:bg-axis-magenta transition">
-                                    <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
-                                        <path d="M9 6l6 6-6 6" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                </span>
+                            <div
+                                className="relative rounded-lg overflow-hidden group transition-transform hover:scale-105 h-[340px] flex cursor-pointer"
+                            >
+                                <Image
+                                    src={service.img}
+                                    alt={service.title}
+                                    fill
+                                    className="object-cover"
+                                    style={{ zIndex: 1 }}
+                                    quality={95}
+                                />
+                                {/* Title and arrow */}
+                                <div className="absolute bottom-6 left-6 right-6 mb-6 flex items-center z-20">
+                                    <span className="text-white text-3xl font-medium drop-shadow-lg pr-16" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
+                                        {service.title}
+                                    </span>
+                                    <span className="absolute right-6 flex items-center justify-center w-10 h-10 rounded-full bg-axis-dark-purple group-hover:bg-axis-magenta transition">
+                                        <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+                                            <path d="M9 6l6 6-6 6" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             </div>

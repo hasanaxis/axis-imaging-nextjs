@@ -43,11 +43,11 @@ function PrincipleHeading({ title }: { title: string }) {
 
 export default function FoundingPrinciples() {
     return (
-        <section className="w-full bg-[#2D2563] py-20 px-2 md:px-0 flex flex-col items-center gap-10">
-            <h2 className="text-white text-4xl md:text-5xl font-bold text-center mb-10 py-10" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
+        <section className="w-full bg-[#2D2563] py-12 px-2 md:px-0 flex flex-col items-center">
+            <h2 className="text-white text-3xl md:text-5xl font-bold text-center mb-10 py-10" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
                 Guided by our founding principles
             </h2>
-            <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-15">
+            <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
                 {principles.slice(0, 2).map((p) => (
                     <div key={p.title} className="px-2 md:px-0">
                         <div className="bg-white rounded-xl shadow-lg p-8 md:p-10 flex flex-col justify-center min-h-[240px]">
@@ -81,4 +81,4 @@ export default function FoundingPrinciples() {
             </div>
         </section>
     );
-} 
+}
