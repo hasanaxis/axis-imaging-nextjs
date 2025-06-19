@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/location/page": "app/location/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/services/ct-scan/page": "app/services/ct-scan/page.js",
+  "/page": "app/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/services/xray/page": "app/services/xray/page.js",
+  "/services/dexa/page": "app/services/dexa/page.js",
+  "/services/ultrasound/page": "app/services/ultrasound/page.js",
+  "/services/page": "app/services/page.js"
+}

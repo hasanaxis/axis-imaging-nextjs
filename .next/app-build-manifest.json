@@ -1,0 +1,109 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/app/_not-found/page-f6b956134670c08e.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/css/35d6c4db879cd4bb.css",
+      "static/chunks/app/layout-79b6cc147c1b5d6c.js"
+    ],
+    "/location/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/location/page-5e1bf006cbd0da76.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/about-us/page-7b1934a99c798804.js"
+    ],
+    "/services/ct-scan/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/services/ct-scan/page-4e04099644dcf0b1.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/page-1de89931009a200f.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/contact/page-49f9c6e7235a34fa.js"
+    ],
+    "/services/xray/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/services/xray/page-720f223f83357667.js"
+    ],
+    "/services/dexa/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/services/dexa/page-19516de599d8e065.js"
+    ],
+    "/services/ultrasound/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/services/ultrasound/page-a094387e985fdd28.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-a2b4b71a917f1ae7.js",
+      "static/chunks/4bd1b696-1897831b3bbea01c.js",
+      "static/chunks/684-9ca86a48ea86629c.js",
+      "static/chunks/main-app-4245cfed9467f364.js",
+      "static/chunks/8e1d74a4-3157fe898f96959b.js",
+      "static/chunks/736-325da0ef975fa237.js",
+      "static/chunks/357-e902286b84a9c53d.js",
+      "static/chunks/app/services/page-d59c0e7db633599e.js"
+    ]
+  }
+}
