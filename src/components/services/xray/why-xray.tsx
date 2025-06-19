@@ -3,27 +3,27 @@ import Image from 'next/image';
 
 const reasons = [
   {
-    icon: '/assets/icons/care.svg',
+    icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/accuracy-precision.svg',
     label: 'Diagnose bone fractures and injuries',
   },
   {
-    icon: '/assets/icons/fast.svg',
+    icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/heart-cardiac-care.svg',
     label: 'Detect lung conditions and infections',
   },
   {
-    icon: '/assets/icons/bulk.svg',
+    icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/reports-results.svg',
     label: 'Examine dental and jaw problems',
   },
   {
-    icon: '/assets/icons/care.svg',
+    icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/ct-scan-imaging.svg',
     label: 'Screen for chest abnormalities',
   },
   {
-    icon: '/assets/icons/fast.svg',
+    icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/fast-timing.svg',
     label: 'Monitor bone healing progress',
   },
   {
-    icon: '/assets/icons/bulk.svg',
+    icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/security-safety.svg',
     label: 'Identify foreign objects in the body',
   },
 ];

@@ -4,39 +4,39 @@ import Image from 'next/image';
 const reasons = [
   {
     icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/accuracy-precision.svg',
-    label: 'Monitor pregnancy and fetal development',
+    label: 'Assess osteoporosis risk and bone health',
   },
   {
     icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/heart-cardiac-care.svg',
-    label: 'Examine internal organs and tissues',
+    label: 'Monitor bone density changes over time',
   },
   {
     icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/reports-results.svg',
-    label: 'Detect abnormalities or conditions',
+    label: 'Evaluate treatment effectiveness',
   },
   {
     icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/ct-scan-imaging.svg',
-    label: 'Guide medical procedures and biopsies',
+    label: 'Screen for bone loss in postmenopausal women',
   },
   {
     icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/fast-timing.svg',
-    label: 'Assess blood flow and circulation',
+    label: 'Assess fracture risk in older adults',
   },
   {
     icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/security-safety.svg',
-    label: 'Screen for certain medical conditions',
+    label: 'Guide medication and lifestyle recommendations',
   },
 ];
 
-export default function WhyUltrasoundSection() {
+export default function WhyDexaSection() {
   return (
     <section className="relative flex justify-center items-center pt-0 pb-12 sm:py-12 px-0 sm:px-0 bg-[#f7f7fa]">
       <div className="bg-[#262262] rounded-none sm:rounded-xl shadow-lg max-w-5xl w-full px-6 py-10 md:py-14 flex flex-col items-center">
         <h2 className="text-white text-3xl md:text-4xl font-medium text-center mb-2" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
-          Why might you need an <br className="hidden md:block" />Ultrasound?
+          Why might you need a <br className="hidden md:block" />DEXA Scan?
         </h2>
         <p className="text-white text-base md:text-lg text-center mb-8 mt-2 opacity-90">
-          Your doctor may recommend an ultrasound to:
+          Your doctor may recommend a DEXA scan to:
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-8 w-full max-w-3xl">
           {reasons.map((reason, idx) => (

@@ -461,7 +461,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/services/hero-services.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/components/services/dexa/hero-dexa-services.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
@@ -519,7 +519,7 @@ function HeroServicesWithBreadcrumbs() {
         `
                 }
             }, void 0, false, {
-                fileName: "[project]/src/components/services/hero-services.tsx",
+                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                 lineNumber: 8,
                 columnNumber: 7
             }, this),
@@ -551,17 +551,17 @@ function HeroServicesWithBreadcrumbs() {
                                         d: "M0,0 L1440,0 L1440,140 C1200,170 1000,185 800,175 C600,165 400,150 200,155 C100,157 50,158 0,157 Z",
                                         fill: "#FFF4FB"
                                     }, void 0, false, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                         lineNumber: 61,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/src/components/services/hero-services.tsx",
+                                    fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                     lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/src/components/services/hero-services.tsx",
+                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                 lineNumber: 52,
                                 columnNumber: 11
                             }, this),
@@ -578,12 +578,12 @@ function HeroServicesWithBreadcrumbs() {
                                             className: "bg-[#23235B] text-white rounded-full px-3 sm:px-5 py-1.5 sm:py-2 text-base sm:text-lg font-medium shadow hover:bg-[#3a3a7a] transition cursor-pointer",
                                             children: "Home"
                                         }, void 0, false, {
-                                            fileName: "[project]/src/components/services/hero-services.tsx",
+                                            fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                             lineNumber: 73,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                         lineNumber: 72,
                                         columnNumber: 13
                                     }, this),
@@ -591,7 +591,7 @@ function HeroServicesWithBreadcrumbs() {
                                         className: "text-[#23235B] text-xl sm:text-2xl font-bold",
                                         children: ">"
                                     }, void 0, false, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                         lineNumber: 77,
                                         columnNumber: 13
                                     }, this),
@@ -601,24 +601,47 @@ function HeroServicesWithBreadcrumbs() {
                                             className: "bg-[#F72585] text-white rounded-full px-3 sm:px-5 py-1.5 sm:py-2 text-base sm:text-lg font-medium shadow hover:bg-[#fa4fa3] transition cursor-pointer",
                                             children: "Our Services"
                                         }, void 0, false, {
-                                            fileName: "[project]/src/components/services/hero-services.tsx",
+                                            fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                             lineNumber: 79,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                         lineNumber: 78,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-[#23235B] text-xl sm:text-2xl font-bold",
+                                        children: ">"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                        lineNumber: 83,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/services/dexa",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "bg-[#F72585] text-white rounded-full px-3 sm:px-5 py-1.5 sm:py-2 text-base sm:text-lg font-medium shadow hover:bg-[#fa4fa3] transition cursor-pointer",
+                                            children: "DEXA Scan"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                            lineNumber: 85,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/src/components/services/hero-services.tsx",
+                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                                 lineNumber: 68,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/components/services/hero-services.tsx",
+                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                         lineNumber: 50,
                         columnNumber: 9
                     }, this),
@@ -632,7 +655,7 @@ function HeroServicesWithBreadcrumbs() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                 className: "block md:hidden relative w-full h-[675px] flex flex-col justify-end",
                                 style: {
-                                    backgroundImage: 'url(/assets/services-page/hero-services/sonographer-white-gloves.png)',
+                                    backgroundImage: 'url(/assets/services/dexa.png)',
                                     backgroundSize: 'contain',
                                     backgroundPosition: 'top center',
                                     backgroundRepeat: 'no-repeat'
@@ -644,8 +667,8 @@ function HeroServicesWithBreadcrumbs() {
                                             background: 'linear-gradient(180deg, rgba(236,0,140,0) 0%, rgba(234,1,140,0.04) 33%, rgba(209,14,141,0.7) 39%, rgba(197,21,141,1) 44%, rgba(180,30,142,1) 61%, rgba(99,32,117,1) 83%, rgba(38,34,98,1) 100%)'
                                         }
                                     }, void 0, false, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
-                                        lineNumber: 105,
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -657,10 +680,10 @@ function HeroServicesWithBreadcrumbs() {
                                                     fontFamily: 'deuterium-variable, Inter, sans-serif',
                                                     letterSpacing: '-0.01em'
                                                 },
-                                                children: "Our Services"
+                                                children: "DEXA Scan"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 113,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 119,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -668,10 +691,10 @@ function HeroServicesWithBreadcrumbs() {
                                                 style: {
                                                     fontFamily: 'Inter, Arial, sans-serif'
                                                 },
-                                                children: "Expert diagnostic imaging services delivered with compassionate care. From routine screenings to complex procedures, our advanced technology and experienced team provide the answers you and your doctor need."
+                                                children: "DEXA (Dual-Energy X-ray Absorptiometry) is the gold standard for measuring bone density and assessing osteoporosis risk. This quick, painless scan provides accurate measurements of your bone health, helping doctors develop personalized treatment plans to strengthen your bones."
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 122,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 128,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -682,20 +705,20 @@ function HeroServicesWithBreadcrumbs() {
                                                 },
                                                 children: "Book Appointment"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 128,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 134,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
-                                        lineNumber: 112,
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                        lineNumber: 118,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                lineNumber: 95,
+                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -705,15 +728,15 @@ function HeroServicesWithBreadcrumbs() {
                                         className: "absolute inset-0 z-0",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                src: "/assets/services-page/hero-services/sonographer-white-gloves.png",
-                                                alt: "Sonographer performing ultrasound",
+                                                src: "/assets/services/dexa.png",
+                                                alt: "DEXA scan procedure",
                                                 fill: true,
                                                 className: "object-contain object-right w-full h-full",
                                                 priority: true,
                                                 quality: 95
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 144,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 150,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -722,14 +745,14 @@ function HeroServicesWithBreadcrumbs() {
                                                     background: 'linear-gradient(90deg, #262262 0%, #632075 25%, #B41E8E 45%, #C8138D 54%, rgba(200, 19, 141, 0.7) 57%, rgba(200, 19, 141, 0.3) 62%, transparent 70%)'
                                                 }
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 153,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 159,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
-                                        lineNumber: 143,
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                        lineNumber: 149,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -741,10 +764,10 @@ function HeroServicesWithBreadcrumbs() {
                                                     fontFamily: 'deuterium-variable, Inter, sans-serif',
                                                     letterSpacing: '-0.01em'
                                                 },
-                                                children: "Our Services"
+                                                children: "DEXA Scan"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 162,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 168,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -752,10 +775,10 @@ function HeroServicesWithBreadcrumbs() {
                                                 style: {
                                                     fontFamily: 'Inter, Arial, sans-serif'
                                                 },
-                                                children: "Expert diagnostic imaging services delivered with compassionate care. From routine screenings to complex procedures, our advanced technology and experienced team provide the answers you and your doctor need."
+                                                children: "DEXA (Dual-Energy X-ray Absorptiometry) is the gold standard for measuring bone density and assessing osteoporosis risk. This quick, painless scan provides accurate measurements of your bone health, helping doctors develop personalized treatment plans to strengthen your bones."
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 171,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 177,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -766,31 +789,31 @@ function HeroServicesWithBreadcrumbs() {
                                                 },
                                                 children: "Book Appointment"
                                             }, void 0, false, {
-                                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                                lineNumber: 177,
+                                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                                lineNumber: 183,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/components/services/hero-services.tsx",
-                                        lineNumber: 161,
+                                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                        lineNumber: 167,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/src/components/services/hero-services.tsx",
-                                lineNumber: 141,
+                                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                                lineNumber: 147,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/components/services/hero-services.tsx",
-                        lineNumber: 87,
+                        fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/src/components/services/hero-services.tsx",
+                fileName: "[project]/src/components/services/dexa/hero-dexa-services.tsx",
                 lineNumber: 48,
                 columnNumber: 7
             }, this)
@@ -804,184 +827,546 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/services/services.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/components/services/dexa/why-dexa.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>Services)
+    "default": (()=>WhyDexaSection)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 ;
 ;
-;
-const services = [
+const reasons = [
     {
-        title: 'CT-Scan',
-        img: '/assets/services/ct-scan.png',
-        route: '/services/ct-scan'
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/accuracy-precision.svg',
+        label: 'Assess osteoporosis risk and bone health'
     },
     {
-        title: 'X-ray',
-        img: '/assets/services/xray.png',
-        route: '/services/xray'
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/heart-cardiac-care.svg',
+        label: 'Monitor bone density changes over time'
     },
     {
-        title: 'Ultrasound',
-        img: '/assets/services/ultrasound.png',
-        route: '/services/ultrasound'
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/reports-results.svg',
+        label: 'Evaluate treatment effectiveness'
     },
     {
-        title: 'DEXA',
-        img: '/assets/services/dexa.png',
-        route: '/services/dexa'
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/ct-scan-imaging.svg',
+        label: 'Screen for bone loss in postmenopausal women'
     },
     {
-        title: 'Interventional Procedures',
-        img: '/assets/services/interventional.png',
-        route: '#'
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/fast-timing.svg',
+        label: 'Assess fracture risk in older adults'
     },
     {
-        title: 'Cardiac CT-Scan',
-        img: '/assets/services/cardiac-ct.png',
-        route: '#'
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/security-safety.svg',
+        label: 'Guide medication and lifestyle recommendations'
     }
 ];
-function Services() {
+function WhyDexaSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative pb-16 pt-10 -mt-12",
-        style: {
-            backgroundColor: '#ffffff'
-        },
+        className: "relative flex justify-center items-center pt-0 pb-12 sm:py-12 px-0 sm:px-0 bg-[#f7f7fa]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative z-10 max-w-6xl mx-auto flex flex-col items-center px-4 py-10",
+            className: "bg-[#262262] rounded-none sm:rounded-xl shadow-lg max-w-5xl w-full px-6 py-10 md:py-14 flex flex-col items-center",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                    className: "text-[#662D91] text-4xl sm:text-4xl md:text-6xl font-bold mb-2 text-center mb-4 py-6",
+                    className: "text-white text-3xl md:text-4xl font-medium text-center mb-2",
                     style: {
                         fontFamily: 'deuterium-variable, Inter, sans-serif'
                     },
-                    children: "Explore our services"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/services/services.tsx",
-                    lineNumber: 46,
-                    columnNumber: 17
+                    children: [
+                        "Why might you need a ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                            className: "hidden md:block"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                            lineNumber: 36,
+                            columnNumber: 32
+                        }, this),
+                        "DEXA Scan?"
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                    lineNumber: 35,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-[#3C4247] text-center mb-10 max-w-4xl text-xl py-6",
-                    style: {
-                        fontFamily: 'deuterium-variable, Inter, sans-serif'
-                    },
-                    children: "State-of-the-art equipment combined with a team that's ready for you. That's what makes us a truly great experience."
+                    className: "text-white text-base md:text-lg text-center mb-8 mt-2 opacity-90",
+                    children: "Your doctor may recommend a DEXA scan to:"
                 }, void 0, false, {
-                    fileName: "[project]/src/components/services/services.tsx",
-                    lineNumber: 49,
-                    columnNumber: 17
+                    fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                    lineNumber: 38,
+                    columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full",
-                    children: services.map((service)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: service.route,
-                            className: "block",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative rounded-lg overflow-hidden group transition-transform hover:scale-105 h-[340px] flex cursor-pointer",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: service.img,
-                                        alt: service.title,
-                                        fill: true,
-                                        className: "object-cover",
-                                        style: {
-                                            zIndex: 1
-                                        },
-                                        quality: 95
+                    className: "grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-8 w-full max-w-3xl",
+                    children: reasons.map((reason, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col items-center text-center",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-3",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: reason.icon,
+                                        alt: "",
+                                        width: 60,
+                                        height: 60
                                     }, void 0, false, {
-                                        fileName: "[project]/src/components/services/services.tsx",
-                                        lineNumber: 62,
-                                        columnNumber: 33
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute bottom-6 left-6 right-6 mb-6 flex items-center z-20",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-white text-3xl font-medium drop-shadow-lg pr-16",
-                                                style: {
-                                                    fontFamily: 'deuterium-variable, Inter, sans-serif'
-                                                },
-                                                children: service.title
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/services/services.tsx",
-                                                lineNumber: 72,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "absolute right-6 flex items-center justify-center w-10 h-10 rounded-full bg-axis-dark-purple group-hover:bg-axis-magenta transition",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    width: "20",
-                                                    height: "20",
-                                                    fill: "none",
-                                                    viewBox: "0 0 24 24",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M9 6l6 6-6 6",
-                                                        stroke: "#fff",
-                                                        strokeWidth: "2",
-                                                        strokeLinecap: "round",
-                                                        strokeLinejoin: "round"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/services/services.tsx",
-                                                        lineNumber: 77,
-                                                        columnNumber: 45
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/services/services.tsx",
-                                                    lineNumber: 76,
-                                                    columnNumber: 41
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/services/services.tsx",
-                                                lineNumber: 75,
-                                                columnNumber: 37
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/services/services.tsx",
-                                        lineNumber: 71,
-                                        columnNumber: 33
+                                        fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 17
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/services/services.tsx",
-                                lineNumber: 59,
-                                columnNumber: 29
-                            }, this)
-                        }, service.title, false, {
-                            fileName: "[project]/src/components/services/services.tsx",
-                            lineNumber: 54,
-                            columnNumber: 25
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                                    lineNumber: 44,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-white text-sm md:text-base opacity-90",
+                                    style: {
+                                        fontFamily: 'Inter, Arial, sans-serif'
+                                    },
+                                    children: reason.label
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                                    lineNumber: 47,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, idx, true, {
+                            fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                            lineNumber: 43,
+                            columnNumber: 13
                         }, this))
                 }, void 0, false, {
-                    fileName: "[project]/src/components/services/services.tsx",
-                    lineNumber: 52,
-                    columnNumber: 17
+                    fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+                    lineNumber: 41,
+                    columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "[project]/src/components/services/services.tsx",
-            lineNumber: 45,
-            columnNumber: 13
+            fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+            lineNumber: 34,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "[project]/src/components/services/services.tsx",
-        lineNumber: 39,
+        fileName: "[project]/src/components/services/dexa/why-dexa.tsx",
+        lineNumber: 33,
+        columnNumber: 5
+    }, this);
+}
+_c = WhyDexaSection;
+var _c;
+__turbopack_context__.k.register(_c, "WhyDexaSection");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/services/dexa/dexa-description.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+;
+const DexaDescription = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "relative w-full px-6 pt-24 pb-24 overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                src: "/assets/services-page/ct-scan-page/ct-desc-bg-new.svg",
+                alt: "DEXA Description Background",
+                className: "absolute inset-0 w-full h-full object-cover z-0 md:hidden",
+                "aria-hidden": "true"
+            }, void 0, false, {
+                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                lineNumber: 7,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                src: "/assets/services-page/ct-scan-page/bg-svg-large.svg",
+                alt: "DEXA Description Background",
+                className: "absolute inset-0 w-full h-full object-cover z-0 hidden md:block",
+                "aria-hidden": "true"
+            }, void 0, false, {
+                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative z-10 py-16",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl md:text-4xl font-bold text-center mb-10",
+                        style: {
+                            color: '#662D91'
+                        },
+                        children: [
+                            "What to expect during",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                lineNumber: 23,
+                                columnNumber: 32
+                            }, this),
+                            "your DEXA Scan?"
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "space-y-8 max-w-2xl text-left mx-auto",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-xl font-semibold mb-4",
+                                        style: {
+                                            color: '#662D91'
+                                        },
+                                        children: "Before your DEXA scan"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                        lineNumber: 28,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: "list-disc pl-6 space-y-2 text-gray-700",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Wear comfortable, loose-fitting clothing without metal"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 30,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Remove jewelry, watches, and metal accessories"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 31,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Avoid calcium supplements for 24 hours before the scan"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 32,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Let us know if you're pregnant or may be pregnant"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 33,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                        lineNumber: 29,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                lineNumber: 27,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-xl font-semibold mb-4",
+                                        style: {
+                                            color: '#662D91'
+                                        },
+                                        children: "During your DEXA scan"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                        lineNumber: 38,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: "list-disc pl-6 space-y-2 text-gray-700",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "The procedure typically takes 10-20 minutes"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 40,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "You'll lie comfortably on a padded table"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 41,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "The scanner arm will move slowly over your body"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 42,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "You'll need to remain still during the scan"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 43,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Usually scans the spine and hip areas"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 44,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Our friendly technicians will guide you through each step"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 45,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                        lineNumber: 39,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                lineNumber: 37,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-xl font-semibold mb-4",
+                                        style: {
+                                            color: '#662D91'
+                                        },
+                                        children: "After your DEXA scan"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                        lineNumber: 50,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                        className: "list-disc pl-6 space-y-2 text-gray-700",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "You can return to normal activities immediately"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 52,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Your results will be analyzed by our expert radiologists"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 53,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Reports are typically available within 24 hours"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 54,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                children: "Your doctor will discuss results and treatment options"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                                lineNumber: 55,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                        lineNumber: 51,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/services/dexa/dexa-description.tsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+};
+_c = DexaDescription;
+const __TURBOPACK__default__export__ = DexaDescription;
+var _c;
+__turbopack_context__.k.register(_c, "DexaDescription");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/services/dexa/dexa-faq.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>DexaFAQ)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+;
+const dexaFaqs = [
+    {
+        question: 'What is a DEXA scan and how does it work?',
+        answer: 'A DEXA (Dual-Energy X-ray Absorptiometry) scan uses two different X-ray beams to measure bone density. It\'s the most accurate way to assess bone health and detect osteoporosis. The scan measures how much X-ray energy is absorbed by your bones, providing precise density measurements.'
+    },
+    {
+        question: 'How long does a DEXA scan take?',
+        answer: 'A DEXA scan typically takes 10-20 minutes, depending on the areas being scanned. The actual scanning time is usually just a few minutes, but preparation and positioning may take additional time.'
+    },
+    {
+        question: 'Do I need to prepare for my DEXA scan?',
+        answer: 'Preparation is minimal. Avoid calcium supplements for 24 hours before the scan, wear comfortable clothing without metal, and remove jewelry. You may be asked to change into a hospital gown.'
+    },
+    {
+        question: 'Is a DEXA scan safe?',
+        answer: 'Yes, DEXA scans are very safe and use extremely low doses of radiation - much lower than a regular X-ray. The radiation exposure is minimal and the benefits of early osteoporosis detection far outweigh any risks.'
+    },
+    {
+        question: 'Will I feel anything during the DEXA scan?',
+        answer: 'DEXA scans are completely painless. You\'ll lie comfortably on a table while the scanner arm moves slowly over your body. You won\'t feel any radiation or discomfort.'
+    },
+    {
+        question: 'When will I get my DEXA scan results?',
+        answer: 'Results are typically available within 24 hours and will be sent to your referring doctor. You can also access your results online through our patient portal.'
+    },
+    {
+        question: 'Can I drive after my DEXA scan?',
+        answer: 'Yes, you can drive immediately after a DEXA scan. There are no restrictions on your activities after the procedure.'
+    },
+    {
+        question: 'What should I wear for my DEXA scan?',
+        answer: 'Wear comfortable, loose-fitting clothing without metal zippers, buttons, or jewelry. You may be asked to change into a hospital gown for the scan.'
+    }
+];
+function DexaFAQ() {
+    _s();
+    const [openIndex, setOpenIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "w-full py-20 flex flex-col items-center z-10",
+        style: {
+            fontFamily: 'deuterium-variable, Inter, sans-serif'
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                className: "text-3xl md:text-4xl font-bold text-center mb-10",
+                style: {
+                    color: '#662D91'
+                },
+                children: "DEXA Scan FAQ"
+            }, void 0, false, {
+                fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                lineNumber: 44,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full max-w-3xl mx-auto",
+                children: dexaFaqs.map((faq, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "w-full text-left py-5 px-4 border-b border-gray-200 flex justify-between items-center text-xl text-[#252625] focus:outline-none",
+                                onClick: ()=>setOpenIndex(openIndex === idx ? null : idx),
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: faq.question
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                                        lineNumber: 54,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-2xl",
+                                        children: openIndex === idx ? '−' : '+'
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                                        lineNumber: 55,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                                lineNumber: 50,
+                                columnNumber: 25
+                            }, this),
+                            openIndex === idx && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "px-4 py-5 pb-6 text-gray-500 text-lg bg-white-50",
+                                children: faq.answer
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                                lineNumber: 58,
+                                columnNumber: 29
+                            }, this)
+                        ]
+                    }, faq.question, true, {
+                        fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                        lineNumber: 49,
+                        columnNumber: 21
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                lineNumber: 47,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                href: "#",
+                className: "mt-10 text-axis-royal-blue font-semibold underline text-lg hover:text-[#662D91]",
+                children: "More DEXA Scan frequently asked questions"
+            }, void 0, false, {
+                fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+                lineNumber: 63,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/services/dexa/dexa-faq.tsx",
+        lineNumber: 43,
         columnNumber: 9
     }, this);
 }
-_c = Services;
+_s(DexaFAQ, "7z1SfW1ag/kVV/D8SOtFgmPOJ8o=");
+_c = DexaFAQ;
 var _c;
-__turbopack_context__.k.register(_c, "Services");
+__turbopack_context__.k.register(_c, "DexaFAQ");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
@@ -1729,19 +2114,21 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/app/services/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/app/services/dexa/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>ServicesPage)
+    "default": (()=>DexaServicesPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Header.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$hero$2d$services$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/services/hero-services.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$services$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/services/services.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$hero$2d$dexa$2d$services$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/services/dexa/hero-dexa-services.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$why$2d$dexa$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/services/dexa/why-dexa.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$dexa$2d$description$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/services/dexa/dexa-description.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$dexa$2d$faq$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/services/dexa/dexa-faq.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Footer.tsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -1751,7 +2138,9 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-function ServicesPage() {
+;
+;
+function DexaServicesPage() {
     _s();
     const [isReferrer, setIsReferrer] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1761,49 +2150,77 @@ function ServicesPage() {
                 isReferrer: isReferrer,
                 setIsReferrer: setIsReferrer
             }, void 0, false, {
-                fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 14,
+                fileName: "[project]/src/app/services/dexa/page.tsx",
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 className: "flex-1 w-full",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$hero$2d$services$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                        fileName: "[project]/src/app/services/page.tsx",
-                        lineNumber: 17,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$hero$2d$dexa$2d$services$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/src/app/services/dexa/page.tsx",
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$services$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                        fileName: "[project]/src/app/services/page.tsx",
-                        lineNumber: 18,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$why$2d$dexa$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                fileName: "[project]/src/app/services/dexa/page.tsx",
+                                lineNumber: 21,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative z-10 -mt-24",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$dexa$2d$description$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                        fileName: "[project]/src/app/services/dexa/page.tsx",
+                                        lineNumber: 23,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$services$2f$dexa$2f$dexa$2d$faq$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                        fileName: "[project]/src/app/services/dexa/page.tsx",
+                                        lineNumber: 24,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/services/dexa/page.tsx",
+                                lineNumber: 22,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/services/dexa/page.tsx",
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 16,
+                fileName: "[project]/src/app/services/dexa/page.tsx",
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 21,
+                fileName: "[project]/src/app/services/dexa/page.tsx",
+                lineNumber: 29,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/src/app/services/page.tsx",
-        lineNumber: 13,
+        fileName: "[project]/src/app/services/dexa/page.tsx",
+        lineNumber: 15,
         columnNumber: 5
     }, this);
 }
-_s(ServicesPage, "0lWHRvF7PnrJmzijfi9Xp/XNxA4=");
-_c = ServicesPage;
+_s(DexaServicesPage, "0lWHRvF7PnrJmzijfi9Xp/XNxA4=");
+_c = DexaServicesPage;
 var _c;
-__turbopack_context__.k.register(_c, "ServicesPage");
+__turbopack_context__.k.register(_c, "DexaServicesPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
 }]);
 
-//# sourceMappingURL=src_d2904899._.js.map
+//# sourceMappingURL=src_dd8cfba3._.js.map

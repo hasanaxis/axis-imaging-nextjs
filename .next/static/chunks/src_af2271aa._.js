@@ -841,27 +841,27 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 const reasons = [
     {
-        icon: '/assets/icons/care.svg',
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/accuracy-precision.svg',
         label: 'Monitor pregnancy and fetal development'
     },
     {
-        icon: '/assets/icons/fast.svg',
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/heart-cardiac-care.svg',
         label: 'Examine internal organs and tissues'
     },
     {
-        icon: '/assets/icons/bulk.svg',
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/reports-results.svg',
         label: 'Detect abnormalities or conditions'
     },
     {
-        icon: '/assets/icons/care.svg',
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/ct-scan-imaging.svg',
         label: 'Guide medical procedures and biopsies'
     },
     {
-        icon: '/assets/icons/fast.svg',
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/fast-timing.svg',
         label: 'Assess blood flow and circulation'
     },
     {
-        icon: '/assets/icons/bulk.svg',
+        icon: '/assets/services-page/ct-scan-page/SVGs-why-ct/security-safety.svg',
         label: 'Screen for certain medical conditions'
     }
 ];
