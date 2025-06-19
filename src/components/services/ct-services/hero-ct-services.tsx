@@ -80,6 +80,12 @@ export default function HeroServicesWithBreadcrumbs() {
                 Our Services
               </span>
             </Link>
+            <span className="text-[#23235B] text-xl sm:text-2xl font-bold">&gt;</span>
+            <Link href="/services/ct-scan">
+              <span className="bg-[#F72585] text-white rounded-full px-3 sm:px-5 py-1.5 sm:py-2 text-base sm:text-lg font-medium shadow hover:bg-[#fa4fa3] transition cursor-pointer">
+                CT-Scan
+              </span>
+            </Link>
           </div>
         </div>
 
