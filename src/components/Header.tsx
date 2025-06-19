@@ -24,7 +24,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
     }, [menuOpen]);
 
     return (
-        <header className="bg-[#23235B] text-white px-4 py-3 flex items-center justify-between w-full relative z-50" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
+        <header className="bg-[#23235B] text-white px-4 py-3 pb-5 pt-5 pl-5 pr-5 flex items-center justify-between w-full relative z-50" style={{ fontFamily: 'deuterium-variable, Inter, sans-serif' }}>
             {/* Logo */}
             <div className="flex items-center ml-4">
                 <a href="/"><Image src="/assets/logos/Group 4.png" alt="Axis Imaging Logo" width={100} height={34} priority /></a>
@@ -55,7 +55,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex space-x-8 ml-8">
                 <a href="/services" className="text-white font-regular hover:text-axis-magenta transition">Our Services</a>
-                <a href="#" className="text-white font-regular hover:text-axis-magenta transition">About Us</a>
+                <a href="/about-us" className="text-white font-regular hover:text-axis-magenta transition">About Us</a>
                 <a href="#" className="text-white font-regular hover:text-axis-magenta transition">Contact Us</a>
                 <a href="#" className="text-white font-regular hover:text-axis-magenta transition">
                     {isReferrer ? 'Referrer Information' : 'Patient Information'}
@@ -123,7 +123,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                             Our Services
                         </a>
                         <a
-                            href="#"
+                            href="/about-us"
                             className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >

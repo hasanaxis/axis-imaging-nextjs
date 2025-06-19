@@ -37,7 +37,7 @@ function Header({ isReferrer, setIsReferrer }) {
         menuOpen
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "bg-[#23235B] text-white px-4 py-3 flex items-center justify-between w-full relative z-50",
+        className: "bg-[#23235B] text-white px-4 py-3 pb-5 pt-5 pl-5 pr-5 flex items-center justify-between w-full relative z-50",
         style: {
             fontFamily: 'deuterium-variable, Inter, sans-serif'
         },
@@ -167,7 +167,7 @@ function Header({ isReferrer, setIsReferrer }) {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "#",
+                        href: "/about-us",
                         className: "text-white font-regular hover:text-axis-magenta transition",
                         children: "About Us"
                     }, void 0, false, {
@@ -350,7 +350,7 @@ function Header({ isReferrer, setIsReferrer }) {
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "#",
+                                        href: "/about-us",
                                         className: "text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20",
                                         onClick: ()=>setMenuOpen(false),
                                         children: "About Us"
