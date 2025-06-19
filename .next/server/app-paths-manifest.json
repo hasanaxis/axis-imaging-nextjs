@@ -1,8 +1,11 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/about-us/page": "app/about-us/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/location/page": "app/location/page.js",
   "/page": "app/page.js",
+  "/services/ct-scan/page": "app/services/ct-scan/page.js",
   "/services/page": "app/services/page.js",
   "/services/ultrasound/page": "app/services/ultrasound/page.js",
   "/services/xray/page": "app/services/xray/page.js"

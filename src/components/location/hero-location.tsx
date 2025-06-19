@@ -93,7 +93,7 @@ export default function LocationHero() {
                 >
                     {/* Mobile Hero Section */}
                     <section
-                        className="block md:hidden relative w-full h-[675px] flex flex-col justify-end"
+                        className="block md:hidden relative w-full h-[575px] px-2 flex flex-col justify-end"
                         style={{
                             backgroundImage: 'url(/assets/location/location-hero.png)',
                             backgroundSize: 'contain',

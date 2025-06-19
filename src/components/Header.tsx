@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -57,7 +58,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
             <nav className="hidden lg:flex space-x-8 ml-8 pt-5 pb-5 pr-5 pl-5">
                 <a href="/services" className="text-white font-regular hover:text-axis-magenta transition">Our Services</a>
                 <a href="/about-us" className="text-white font-regular hover:text-axis-magenta transition">About Us</a>
-                <a href="#" className="text-white font-regular hover:text-axis-magenta transition">Contact Us</a>
+                <a href="/contact" className="text-white font-regular hover:text-axis-magenta transition">Contact Us</a>
                 <a href="#" className="text-white font-regular hover:text-axis-magenta transition">
                     {isReferrer ? 'Referrer Information' : 'Patient Information'}
                 </a>
@@ -131,7 +132,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                             About Us
                         </a>
                         <a
-                            href="#"
+                            href="/contact"
                             className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >

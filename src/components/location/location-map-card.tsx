@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function LocationMapCard() {
     return (
-        <section className="relative w-full flex justify-center items-center min-h-[420px] md:min-h-[520px] bg-[#e9e9f2]">
+        <section className="relative w-full flex justify-center items-center min-h-[420px] md:min-h-[520px] bg-white py-16 px-4">
             {/* Google Map */}
             <iframe
                 title="Mickleham Location Map"
                 width="100%"
-                height="420"
+                height="100%"
                 className="absolute inset-0 w-full h-full object-cover z-0"
                 style={{ filter: 'grayscale(0.6) contrast(1.1)' }}
                 frameBorder="0"
