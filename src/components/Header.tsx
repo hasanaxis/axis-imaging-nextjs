@@ -54,7 +54,7 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
             </button>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex space-x-8 ml-8">
+            <nav className="hidden lg:flex space-x-8 ml-8 pt-5 pb-5 pr-5 pl-5">
                 <a href="/services" className="text-white font-regular hover:text-axis-magenta transition">Our Services</a>
                 <a href="/about-us" className="text-white font-regular hover:text-axis-magenta transition">About Us</a>
                 <a href="#" className="text-white font-regular hover:text-axis-magenta transition">Contact Us</a>
