@@ -6,6 +6,7 @@ import HeroServicesWithBreadcrumbs from '../../../components/services/ultrasound
 import WhyUltrasoundSection from '../../../components/services/ultrasound/why-ultrasound';
 import UltrasoundDescription from '../../../components/services/ultrasound/ultrasound-description';
 import UltrasoundFAQ from '../../../components/services/ultrasound/ultrasound-faq';
+import BookAppointmentSection from '../../../components/BookAppointmentSection';
 import Footer from '../../../components/Footer';
 
 export default function UltrasoundServicesPage() {
@@ -24,6 +25,7 @@ export default function UltrasoundServicesPage() {
             <UltrasoundFAQ />
           </div>
         </div>
+        <BookAppointmentSection />
         {/* Add your Ultrasound service-specific components here */}
       </main>
       <Footer />

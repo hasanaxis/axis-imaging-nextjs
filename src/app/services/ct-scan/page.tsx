@@ -6,6 +6,7 @@ import HeroServicesWithBreadcrumbs from '../../../components/services/ct-service
 import WhyCTSection from '../../../components/services/ct-services/why-ct';
 import CtScanDescription from '../../../components/services/ct-services/ct-scan-description';
 import CTFAQ from '../../../components/services/ct-services/ct-faq';
+import BookAppointmentSection from '../../../components/BookAppointmentSection';
 import Footer from '../../../components/Footer';
 
 export default function CTServicesPage() {
@@ -24,6 +25,7 @@ export default function CTServicesPage() {
             <CTFAQ />
           </div>
         </div>
+        <BookAppointmentSection />
         {/* Add your CT service-specific components here */}
       </main>
       <Footer />

@@ -6,6 +6,7 @@ import HeroServicesWithBreadcrumbs from '../../../components/services/dexa/hero-
 import WhyDexaSection from '../../../components/services/dexa/why-dexa';
 import DexaDescription from '../../../components/services/dexa/dexa-description';
 import DexaFAQ from '../../../components/services/dexa/dexa-faq';
+import BookAppointmentSection from '../../../components/BookAppointmentSection';
 import Footer from '../../../components/Footer';
 
 export default function DexaServicesPage() {
@@ -24,6 +25,7 @@ export default function DexaServicesPage() {
             <DexaFAQ />
           </div>
         </div>
+        <BookAppointmentSection />
         {/* Add your DEXA service-specific components here */}
       </main>
       <Footer />

@@ -6,6 +6,7 @@ import HeroServicesWithBreadcrumbs from '../../../components/services/xray/hero-
 import WhyXraySection from '../../../components/services/xray/why-xray';
 import XrayDescription from '../../../components/services/xray/xray-description';
 import XrayFAQ from '../../../components/services/xray/xray-faq';
+import BookAppointmentSection from '../../../components/BookAppointmentSection';
 import Footer from '../../../components/Footer';
 
 export default function XrayServicesPage() {
@@ -24,6 +25,7 @@ export default function XrayServicesPage() {
             <XrayFAQ />
           </div>
         </div>
+        <BookAppointmentSection />
         {/* Add your X-ray service-specific components here */}
       </main>
       <Footer />
