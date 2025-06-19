@@ -118,14 +118,14 @@ export default function Header({ isReferrer, setIsReferrer }: HeaderProps) {
                     {/* Navigation Links */}
                     <nav className="flex flex-col space-y-1 mb-8">
                         <a
-                            href="#"
+                            href="/services"
                             className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >
                             Our Services
                         </a>
                         <a
-                            href="#"
+                            href="/about-us"
                             className="text-white font-regular text-lg py-4 px-2 hover:text-axis-magenta transition border-b border-white/20"
                             onClick={() => setMenuOpen(false)}
                         >

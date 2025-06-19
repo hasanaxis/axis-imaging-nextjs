@@ -7,11 +7,13 @@ import ContactInfo from '@/components/contact/ContactInfo';
 import ContactForm from '@/components/contact/ContactForm';
 import ContactAdditionalInfo from '@/components/contact/ContactAdditionalInfo';
 import LocationMapCard from '@/components/location/location-map-card';
+import { useState } from 'react';
 
 export default function ContactPage() {
+    const [isReferrer, setIsReferrer] = useState(false);
     return (
         <>
-            <Header isReferrer={false} setIsReferrer={() => { }} />
+            <Header isReferrer={isReferrer} setIsReferrer={setIsReferrer} />
             <ContactHero />
             <ContactInfo />
             <ContactForm />
